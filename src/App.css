@@ -1,5 +1,8 @@
+/* App.css */
+
 .App {
   text-align: center;
+  font-family: Arial, sans-serif; /* Change the font if needed */
 }
 
 .App-logo {
@@ -14,18 +17,55 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #d2eaf6; /* Change the background color to your preference */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #08428b;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header h2 {
+  margin: 0;
+  font-size: 2.5rem; /* Increase the font size if needed */
+}
+
+.App-header h5 {
+  margin: 0;
+  font-size: 1.5rem; /* Increase the font size if needed */
+}
+
+.App-header h3 {
+  margin-top: 2rem; /* Add some spacing between the title and links */
+  font-size: 1.2rem; /* Increase the font size if needed */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 1rem; /* Add some spacing between each link */
+}
+
+a {
+  text-decoration: none;
+  color: #08428b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  padding: 10px;
+}
+
+a:hover {
+  opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+}
+
+span {
+  margin-left: 0.5rem; /* Add some spacing between the icon and link text */
 }
 
 @keyframes App-logo-spin {
